@@ -1,6 +1,6 @@
 #include <iostream>
 #include "lib.h"
-bool primi(int a, int d){
+bool numeroprimo(int a, int d){
    
    if (a<2){
       return false;
@@ -10,12 +10,12 @@ bool primi(int a, int d){
       }
 
        int resto=a%d;
-        if (resto == 0) {
+        if (resto==0) {
             return false;
         }
       if (b>2){
-         bool risultato= primi (a,d-1);
-         return risultato
+         bool risultato= numeroprimo(a,d-1);
+         return risultato;
          }
    return true ;
 }
