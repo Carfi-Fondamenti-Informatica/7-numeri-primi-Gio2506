@@ -7,7 +7,7 @@ int main() {
     int a=0;
     cin>>a;
     
-    if(numeroprimo (a,a-1){
+    if(numeroprimo(a,a-1){
         
         cout<<"numero primo"<<endl;
     }else{
