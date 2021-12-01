@@ -1,21 +1,15 @@
-#include <iostream>
-#include "lib.h"
-bool numeroprimo(int a, int d){
-   
-   if (a<2){
-      return false;
-   }
-   if (a==2){
-         return true;
-      }
+#include "lib.h.h"
 
-       int resto=a%d;
-        if (resto==0) {
-            return false;
-        }
-      if (b>2){
-         bool risultato= numeroprimo(a,d-1);
-         return risultato;
-         }
-   return true ;
+bool ric(int i, int n){
+
+    if(i==n){
+        return true;
+    }
+    else if(n%i==0){
+        return false;
+    }
+    else {
+        return ric(i+1,n);
+    }
 }
+
