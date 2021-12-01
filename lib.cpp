@@ -1,7 +1,7 @@
 #include "lib.h.h"
 bool primi (int a, int d){
    int resto=a%d;
-if (a>=2){
+if (a>1){
     if(d<a){
         resto=a%d;
         if (resto != 0) {
