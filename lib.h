@@ -1,6 +1,5 @@
-#ifndef ESERCIZIRICORSIONE_LIB_H
-#define ESERCIZIRICORSIONE_LIB_B
+#ifndef UNTITLED_LIB_H_H
+#define UNTITLED_LIB_H_H
+bool numeroprimo (int,int);
 
-bool primi(int,int);
-  
-  #endif // ESERCIZIRICORSIONE_LIB_H
+#endif //UNTITLED_LIB_H_H
