@@ -1,12 +1,14 @@
 #include <iostream>
 #include "lib.h"
+using namespace std;
 
 int main() {
-    using namespace std;
-    int a=0,b=2;
-    bool risultato=primi(a,b);
+    
+    int a=0;
     cin>>a;
-    if(risultato){
+    
+    if(numeroprimo (a,a-1){
+        
         cout<<"numero primo"<<endl;
     }else{
         cout<<"numero non primo"<<endl;
