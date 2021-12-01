@@ -1,17 +1,14 @@
 #include <iostream>
 #include "lib.h"
-using namespace std;
 
+using namespace std;
+int n;
 int main() {
-    
-    int a=0;
-    cin>>a;
-    
-    if(numeroprimo(a,a-1){
-        
-        cout<<"numero primo"<<endl;
+    cin>>n;
+    if(ric(2,n)) {
+        cout << "numero primo" << endl;
     }else{
-        cout<<"numero non primo"<<endl;
+        cout << "numero non primo" << endl;
     }
     return 0;
 }
