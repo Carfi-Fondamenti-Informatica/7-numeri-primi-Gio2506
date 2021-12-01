@@ -1,1 +1,6 @@
+#ifndef ESERCIZIRICORSIONE_LIB_H
+#define ESERCIZIRICORSIONE_LIB_B
 
+bool primi(int,int);
+  
+  #endif // ESERCIZIRICORSIONE_LIB_H
